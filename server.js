@@ -230,10 +230,10 @@ async function startServer() {
 
 }
 
-startServer();
-
 const app = new express();
 app.use(cors());
-app.listen(3000, () => {
+app.listen(8080, () => {
     console.log('Server iniciado');
 });
+
+startServer();
