@@ -21,6 +21,6 @@ El proyecto implementa una API RESTful para interactuar con estas entidades, per
 
 El sistema se diseñó basado en el siguiente diagrama de clases:
 
-![Diagrama de Clases]()
+![Diagrama de Clases](diagramadeclases.jpg)
 
 ---
