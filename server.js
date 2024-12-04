@@ -30,6 +30,7 @@ const typeDefs = gql`
     }
 
     type Paciente {
+        _id: String!
         rut: String!
         nombre: String!
         apellido: String!
@@ -50,6 +51,7 @@ const typeDefs = gql`
     }
 
     input PacienteInput {
+        _id: String!
         rut: String!
         nombre: String!
         apellido: String!
@@ -135,7 +137,10 @@ const resolvers = {
         async login(obj, {rut, contrasena}) {
             const paciente = await Paciente.findOne({rut})
             bcrypt.compare(contrasena, paciente.contrasena, function(err, result) {
-                if(result){return(paciente)}else{return({})}
+                if(result){
+                    console.log(paciente)
+                    return(paciente)
+                }
             });
         }
     },
@@ -173,7 +178,6 @@ const resolvers = {
         },
 
         async addPaciente(obj, {input}) {
-
             bcrypt.hash(input.contrasena, saltRounds, async function(err, hash) {
                 input.contrasena = hash
                 const paciente = new Paciente(input);
