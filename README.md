@@ -1,8 +1,8 @@
 # Integrantes: 
-  Andres Riveros - 202073556-5
-  Constanza Alvarado - 201973521-7
-  Felipe Ferrada - 201973606-K
-  Martin Muñoz - 201904632-2
+Andres Riveros - 202073556-5
+Constanza Alvarado - 201973521-7
+Felipe Ferrada - 201973606-K
+Martin Muñoz - 201904632-2
 
 # Sistema de Gestión Médica - Back-End (Caso 20)
 
