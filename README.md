@@ -1,4 +1,11 @@
-# Sistema de Gestión Médica - Back-End
+# Integrantes: 
+
+Andres Riveros - 202073556-5\
+Constanza Alvarado - 201973521-7\
+Felipe Ferrada - 201973606-K\
+Martin Muñoz - 201904632-2
+
+# Sistema de Gestión Médica - Back-End (Caso 20)
 
 Este proyecto es un sistema de gestión médica desarrollado en JavaScript y Node.js. El sistema está diseñado para manejar médicos, pacientes, secretarias, pagos y un sistema de correo para enviar notificaciones y recordatorios. A continuación, se proporciona una descripción general del proyecto y su estructura.
 
