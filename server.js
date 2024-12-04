@@ -210,7 +210,6 @@ const resolvers = {
             return {
                 message: 'Cajero ${rut} eliminado'
             };
-        
         }
     }
 }
